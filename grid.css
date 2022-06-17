@@ -1,0 +1,35 @@
+
+body{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e';
+    gap: 10px;
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+.one{
+    grid-area: a;
+    background-color: blue;
+}
+.two{
+    grid-area: b;
+    background-color: black;
+}
+.three{
+    grid-area: c;
+    background-color: pink;
+}
+.four{
+    grid-area: d;
+    background-color: red;
+}
+.five{
+    grid-area: e;
+    background-color: green;
+}
+
